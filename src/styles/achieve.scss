@@ -1,0 +1,50 @@
+@import 'variable.scss';
+@import 'skills.scss';
+
+.achieve {
+    @extend .skills;
+    width: 85%;
+    margin: auto;
+    padding-bottom: 0px;
+    padding-top: 100px;
+    h1 {
+        @include h1-style(uppercase, none, 1.5em, center, $btn-black);
+    }
+    @media screen and (min-width: 580px) {
+        h1 {
+            @include h1-style(uppercase, none, 2em, center, $btn-black);
+        }
+    }
+    .achieve-1 {
+        @extend .skill-1;
+        padding-top: 100px;   
+    }
+    .ach {
+        @include content(55%, 40%, left, 5px 5px 5px 5px rgb(228, 222, 222), 20px 15px 10px 25px, 10px);
+        padding: 60px 60px;
+        margin-top: 20px;     
+    }
+    .Tilt-1 {
+        width: 45%;
+        height: 40%;
+        display: flex;
+        align-items: baseline;
+        justify-content: center;
+        box-shadow: 10px 5px 10px 5px rgb(250, 248, 248);
+        &:hover {
+            transition: 0.2s ease-in-out;
+             }
+             .Tilt-inner {
+                box-shadow: 10px 15px 10px 15px whitesmoke ;
+            }
+        }
+}
+
+@media screen and (min-width: 580px) {
+.achieve {
+    @extend .skills;
+    width: 85%;
+    margin: auto;
+    padding-bottom: 0px;
+}
+}

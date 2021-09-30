@@ -1,0 +1,63 @@
+$button-clr: green;
+$btn-black: black;
+$light: rgb(220, 226, 140);
+$dark: rgb(133, 97, 13);
+$white: white;
+$brown: rgb(9, 119, 58);
+$font-color: rgb(211, 204, 187);
+
+body {
+    height: 100%;
+}
+
+ button {
+    background-color: $btn-black;
+    font-size: 17px;
+    border-radius: 2px;
+    outline: none;
+    width: 140px;
+    height: 41px;
+    border: none;
+    color: $white;
+    &:hover {
+        background-color: $light;
+        color: $dark;
+    }
+}
+
+@media screen and (min-width: 580px) {
+    button {
+        background-color: $btn-black;
+        font-size: 20px;
+        border-radius: 4px;
+        outline: none;
+        cursor: pointer;
+        width: 269px;
+        height: 45px;
+        border: none;
+        color: $white;
+        &:hover {
+            background-color: $light;
+            color: $dark;
+        }
+    }
+}
+
+@mixin h1-style($capital, $decot, $font, $align, $color) {
+    text-transform: $capital;
+    text-decoration: $decot;
+    font-size: $font;
+    text-align: $align;
+    color: $color;
+}
+
+@mixin content($width, $height, $text, $box, $pad, $pad1) {
+       width: $width;
+        height: $height;
+        text-align: $text;
+        box-shadow: $box;
+        padding: $pad;
+        li {
+            padding-bottom: $pad1;
+        }
+}
