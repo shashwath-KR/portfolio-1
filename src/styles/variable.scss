@@ -1,6 +1,6 @@
 $button-clr: green;
 $btn-black: black;
-$light: rgb(220, 226, 140);
+$light: rgb(237, 238, 235);
 $dark: rgb(133, 97, 13);
 $white: white;
 $brown: rgb(9, 119, 58);
@@ -13,7 +13,6 @@ body {
  button {
     background-color: $btn-black;
     font-size: 17px;
-    border-radius: 2px;
     outline: none;
     width: 140px;
     height: 41px;
@@ -29,7 +28,6 @@ body {
     button {
         background-color: $btn-black;
         font-size: 20px;
-        border-radius: 4px;
         outline: none;
         cursor: pointer;
         width: 269px;

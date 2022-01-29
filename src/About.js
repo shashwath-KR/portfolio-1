@@ -16,7 +16,7 @@ const About = () => {
                    <div className= 'profile'>
                        <img src= {Profile} alt= 'man' width= '250px' height= '220px' />
                        <p id='hire'>To achieve high carrier growth through a continuous learning process and keep myself 
-                        dynamic, visionary and competitive with the changing scenario of theworld</p>
+                        dynamic, visionary and competitive with the changing scenario of the world</p>
                    </div>
                </div>
         </header>

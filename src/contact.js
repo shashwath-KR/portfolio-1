@@ -17,7 +17,7 @@ const Contact = () => {
                      <Link to= 'app' smooth= {true} duration= {1500}><FaAngleUp 
                      style={{paddingTop: '20px', fontSize: '68px'}} /></Link>
                      <div className= 'ct-3'>
-                         <a href="https://www.linkedin.com/in/shashwath KR/"><FaLinkedin /></a>
+                         <a href="https://www.linkedin.com/in/shashwath-kr-1980471b5/"><FaLinkedin /></a>
                          <a href="https://github.com/shashwath-KR"><FaGithub /></a>
                          <a href= "https://www.facebook.com/shashwath.gowda.8/"><FaFacebook /></a>
                      </div>
