@@ -27,7 +27,9 @@
 
   .btn {
       background-color: $btn-black;
-      
+      position: fixed;
+      width: 100%;
+      z-index: 1;
   }
 
   .about {
