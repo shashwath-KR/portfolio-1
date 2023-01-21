@@ -21,8 +21,8 @@ const Skills = () => {
            <li>Knowledge of WordPress software</li>
           </ul>
           </div>
-          <Tilty className="Tilt" options={{ max : 25 }} style={{ height: 250, width: 350 }} >
-         <div className="Tilt-inner"><img src= {Skull} alt= 'head' width= '490px' height= '440px' /></div>
+          <Tilty className="Tilt" options={{ max : 25 }} style={{ height: "90%", width: "80%" }} >
+         <div className="Tilt-inner"><img src= {Skull} alt= 'head' width= '90%' height= '80%' /></div>
       </Tilty>
       </div>
       </div>

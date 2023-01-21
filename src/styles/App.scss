@@ -6,34 +6,87 @@
     box-sizing: border-box;
 }
 
+html, body {
+    overflow-x: hidden;
+}
+
 .container {
     height: 100%;
-    width: 100vh;
+    width: auto;
+    margin: 0px;
     text-align: center;
     position: relative;
     font-size: 18px;
   }
+
+  .btn {
+     display: flex;
+       flex-direction: column;
+      background-color: $btn-black;
+      position: fixed;
+      width: auto;
+      margin-left: 15px;
+      margin-top: 55px;
+      z-index: 1;
+       visibility: hidden;
+  }
+
+  .menu1 {
+    display: flex;
+    justify-content: flex-start;
+    visibility: visible;
+    position: fixed;
+    z-index: 5;
+  }
+
+  .menu {
+      position: absolute;
+      width: 40px;
+      padding: 4px;
+      border-radius: 3px;
+      visibility: visible;
+      background-color: black;
+      margin: 6px;
+   }
  
-  @media screen and (min-width: 800px) {
+  @media screen and (min-width: 660px) {
       .container {
         height: 100%;
-        width: 100%;
+        width: auto;
         margin: auto;
         text-align: center;
         position: relative;
         font-size: 21px;
       }
-  }
-
-  .btn {
+      .btn {
+        display: flex;
+       flex-direction: row;
+       justify-content: space-around;
       background-color: $btn-black;
       position: fixed;
       width: 100%;
-      z-index: 1;
+     margin: auto;
+      z-index: 10;
+      visibility: visible;
+  }
+
+  .menu1 {
+    display: flex;
+    justify-content: flex-start;
+    visibility: hidden;
+  }
+
+  .menu {
+      position: absolute;
+      width: 50px;
+      visibility: hidden;
+   }
   }
 
   .about {
       .btn-1 {
+        position: relative;
+        top: 30px;
       width: 70%;
       margin-left: 50px;
       }
@@ -47,6 +100,8 @@
                 text-align: left;
                  }
                  .btn-1 {
+                    position: relative;
+                    top: 30px;
                     width: 70%;
                     margin-left: 100px;
                     }
@@ -105,7 +160,14 @@
         justify-content: space-around;
         width: 75%;
         margin: auto;
-        padding-top: 80px;
+        padding-top: 40px;
+
+        .profile .pro {
+         width: 20%;
+         height: 60%;
+       
+        }
+
       p {
           font-size: 21px;
           text-align: left;
@@ -113,6 +175,11 @@
           color: whitesmoke;
       }
       @media  screen and (min-width: 580px) {
+        .profile .pro {
+         width: 60%;
+         height: 70%;
+        }
+
         p {
             font-size: 28px;
             text-align: left;

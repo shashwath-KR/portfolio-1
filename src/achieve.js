@@ -9,8 +9,8 @@ const Achieve = () => {
         <div className= 'achieve'>
       <h1>Certificates</h1>
       <div className= 'achieve-1'>
-      <Tilty className="Tilt-1" options={{ max : 25 }} style={{ height: 350, width: 550 }} >
-         <div className="Tilt-inner"><img src= {Web} alt= 'head' width= '550px' height= '350px' /></div>
+      <Tilty className="Tilt-1" options={{ max : 25 }} style={{ height: "90%", width: "80%" }} >
+         <div className="Tilt-inner"><img src= {Web} alt= 'head' width= '90%' height= '80%' /></div>
       </Tilty>
           <div className= 'ach'>
           <ul>

@@ -9,12 +9,12 @@ const About = () => {
             <h1>Hi, I am <i>Shashwath</i><br />
                the Developer you've been searching.</h1>
                <Link to='hire' smooth= {true} duration= {1500} >
-               <div className= 'btn-2'><button className= 'bton'>Hire me.</button></div></Link>
+               <div className= 'btn-2'><button className= 'bton'>Hireme.</button></div></Link>
                </div>
                <div className= 'about-1'>
                    <h1>About me</h1>
                    <div className= 'profile'>
-                       <img src= {Profile} alt= 'man' width= '250px' height= '220px' />
+                    <img className="pro" src= {Profile} alt= 'man' width="40%" height= "50%" />
                        <p id='hire'>To achieve high carrier growth through a continuous learning process and keep myself 
                         dynamic, visionary and competitive with the changing scenario of the world</p>
                    </div>

@@ -22,7 +22,7 @@ const Contact = () => {
                          <a href= "https://www.facebook.com/shashwath.gowda.8/"><FaFacebook /></a>
                      </div>
                      <hr />
-                     <p>© 2021 - developed by shashwath</p>
+                     <p>© 2022 - developed by shashwath</p>
                    </div>
                    </div>
         
